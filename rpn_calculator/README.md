@@ -1,3 +1,3 @@
-### Roman Numeral Kata
+### Reverse Polish Notation Calculator
 
-A project to practice TDD.
+Rspec testing to implement [RPN calculator](https://en.wikipedia.org/wiki/Reverse_Polish_notation).
