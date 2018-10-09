@@ -19,17 +19,17 @@ class RomanNumeral
     0 => ""
   }
 
-  def self.convert(arabic)  
+  def self.convert(arabic)
     converted = ""
-    
+
     ROMAN_NUMERAL_MAP.keys.each do |integer|
       return converted if arabic == 0
       quotient = arabic / integer
       modulus = arabic % integer
       converted += ROMAN_NUMERAL_MAP[integer] * quotient
-      arabic = modulus  
+      arabic = modulus
     end
-    
+
     converted
   end
 end
